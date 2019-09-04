@@ -1,3 +1,49 @@
-*{
-background-color: brown
+body {
+  background-color: azure;
 }
+header {
+  background-color: azure;
+  font-size: 50px;
+  color: firebrick;
+  border: 2px solid black;
+  text-align: center
+}
+
+section {
+  background-color:white;
+  border: 2px solid black;
+  margin: 10;
+  width: 42%;
+  display: inline-block;
+}
+
+article {
+  font-size: 30;
+  font-weight: bold;}
+  
+
+h1 {
+  font-size: 15px;
+  font-weight: 300;
+  color: red
+}
+article1 {
+  font-size: 30;
+  font-weight: bold
+}
+h2{
+  font-size: 15px;
+  font-weight: 300;
+  color: red
+}
+container {
+  font-size: 30;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15;
+  font-weight: 300;
+  color: red
+}
+
