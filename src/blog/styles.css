@@ -1,0 +1,43 @@
+table {
+  background-color: aqua;
+  margin: auto;
+  color: black;
+  font-size: 15;
+  border: 1px solid black;
+  
+}
+
+h1 {
+  background-color: aquamarine;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 35px;
+  color: black;
+  
+
+  
+
+}
+
+h2 {
+  background-color:aquamarine;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  border-spacing: 100px;
+  
+}
+
+p {
+  background-color: grey;
+  margin:auto;
+  border: 2px solid black
+}
+
+body {
+  background-color: black;
+  border: 3px solid white;
+
+}
+]
