@@ -9,6 +9,14 @@ header {
   text-align: center
 }
 
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+      
+}
+
 section {
   background-color:white;
   border: 2px solid black;
@@ -29,7 +37,7 @@ h1 {
 }
 article1 {
   font-size: 30;
-  font-weight: bold
+  font-weight: bold;
 }
 h2{
   font-size: 15px;
@@ -45,5 +53,35 @@ h3 {
   font-size: 15;
   font-weight: 300;
   color: red
+}
+
+section1 { background-color:white;
+  border: 2px solid black;
+  margin: 10;
+  width: 42%;
+  display: inline-block; }
+
+  article2 {
+    font-size: 30;
+    font-weight: bold;}
+
+  p {
+    font-size: 15px;
+    font-weight: 300;
+    color: red;
+  }
+
+  article3 {
+    font-size: 30;
+    font-weight: bold}
+
+    p1 { 
+      font-size: 15;
+      font-weight: 300;
+      color: red; }
+
+
+
+
 }
 
