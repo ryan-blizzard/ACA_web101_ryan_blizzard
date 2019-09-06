@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+}
+
+.main-container {
+  height: 800px;
+  width: 100%;
+  border: 2px solid black
+}
+
+img {
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
+
+p {
+  font-size: 15x;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background: grey;
+  font-size: 18;
+  color: white;
+  display: block;
+  width: 135;
+  border: solid black 1px
+}
+
+nav{
+  background: gray;
+  display: block;
+  height: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+ul {
+  color: white;
+  grid-auto-rows: auto;
+  font-size: 15;
+  float:
+}
+
+
+
+
+
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+    img{
+      width: 600px;
+      
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
