@@ -57,7 +57,6 @@ ul {
   color: white;
   grid-auto-rows: auto;
   font-size: 15;
-  float:
 }
 
 
@@ -134,8 +133,11 @@ ul {
       height: 750px;
       display: block;
       margin-left: auto;
-      margin-right: auto
+      margin-right: auto;
+      float: left;
       }
+
+      
 
       h1 {
         font-size: 25px;
