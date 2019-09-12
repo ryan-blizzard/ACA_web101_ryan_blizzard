@@ -27,15 +27,96 @@ body{
   width: 100%;
 }
 
-.p-1{
-  color: yellow;
-  bottom: 5%;
+.four {
+color:yellow;
+margin-top: 45px;
+font-family: Helvetica;
+font-size: 12px;
 }
 
-.p-2{
-  color: white
+.six{
+  color: white;
+  vertical-align: middle;
+  font-family:Helvetica;
+  font-size: 12px;
+  grid-column: 6;
+  grid-row: 1;
+  text-align: center;
+  line-height: 5px;
+  
 }
 
-h2{
+.seven{
+  color: white;
+  margin-top: 40px;
+  }
+
+.ten{
+  color: white;
+  margin-top: 50px;
+}
+
+.fourteen{
+  font-family: helvetica;
+  font-size: 12px;
+  color: white;
+  margin-top: 55px;
+}
+
+.seventeen{
+  color: white;
+  margin-top: 25px;
+}
+
+.twentyfour{
+  font-family: helvetica;
   font-size: 15px;
+  margin-top: 217px;
+  color:white;
+}
+
+.twentyseven{
+  color: yellow;
+  font-family: helvetica;
+  font-size: 15px;
+  margin-top: 150;
+  text-align: center;
+}
+
+.twentyeight{
+  color: white;
+  margin-top: 170px;
+}
+
+.thirtyfour{
+  font-family: helvetica;
+  font-size: 8px;
+  color: white;
+  word-wrap: normal;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.fourtyone{
+  color: white;
+  font-family: helvetica;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 28;
+}
+
+.fortyfour{
+  color: yellow;
+  font-family: helvetica;
+  font-size: 17px;
+  margin-top:65px;
+}
+
+.fiftyone{
+  color: white;
+  font-family: helvetica;
+  font-size: 13px;
+  word-wrap: normal;
+  text-align: center;
+  margin-bottom: 65px;
 }
