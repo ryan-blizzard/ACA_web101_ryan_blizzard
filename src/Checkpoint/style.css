@@ -128,19 +128,19 @@ h6{
 #graph1{
   margin-top: 10px;
   margin-left: 10px;
-  width: 300px;
+  width: 350px;
   height: 200px;
 }
 
 #line{
-  width: 390px;
+  width: 450px;
   height: 200px;
   margin-top: 10px;
-  margin-left: 20px
+  margin-left: 30px
 }
 
 #color1{
-width: 290px;
+width: 350px;
 height: 200px;
 margin-top: 10px;
 }
@@ -155,10 +155,10 @@ h6{
 }
 
 #maingraph{
-  margin-top: -15px;
+  margin-top: 0px;
   margin-left:10px;
   height: 294px;
-  width: 700px;
+  width: 750px;
   
 }
 
