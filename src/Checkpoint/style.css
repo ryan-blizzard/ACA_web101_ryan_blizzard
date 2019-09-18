@@ -127,21 +127,21 @@ h6{
 
 #graph1{
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 25px;
   width: 350px;
-  height: 200px;
+  height: 275px;
 }
 
 #line{
   width: 450px;
-  height: 200px;
+  height: 275px;
   margin-top: 10px;
-  margin-left: 30px
+  margin-left: 35px
 }
 
 #color1{
 width: 350px;
-height: 200px;
+height: 275px;
 margin-top: 10px;
 }
 
@@ -155,44 +155,221 @@ h6{
 }
 
 #maingraph{
-  margin-top: 0px;
-  margin-left:10px;
+  margin-top: 60px;
+  margin-left:25px;
   height: 294px;
   width: 750px;
+}
+
+#pie{
+  height: 293px;
+  width: 420px;
+  margin-left: -70px;
+  margin-top: 60px;
+}
+
+.box17{
+  background-color: black;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  body{
+    margin: 0%;
+    display: grid;
+    grid-template-rows: (5% 5% 20% 1fr);
+    background-color: yellow;
+  }
+
+  .box1{
+    display: none;
+  }
+
+  h1{
+    display: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 17%
+    }
+    .box2{
+      background-color: white;
+      padding-top: 20px;
+      padding-left: 15px;
+    }
+   
+    #input{
+      margin-left: 15px;
+      margin-top: 10;
+    }
   
+    .box3{
+      background-color: white;
+     }
+    
+     .box4{
+       background-color: white;
+     }
+     #arrow{
+       margin-left: 120px;
+       margin-top: 20px
+     }
+  
+     
+     .box5{
+       display: none;
+       background-color: black;
+     }
+  
+    #dash{
+      
+      display: none;
+      margin-top: 40px;
+      margin-left:60px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 13;
+      
+    }
+  
+    #tic1{
+      display:none;
+      margin-top: 20px;
+      margin-left: 40px;
+      color: white
+    }
+  
+    .box6{
+      background-color: rgb(23, 196, 138)
+    }
+  
+  #bottomnav{
+    display: flex;
+  }
+  #bottomnav h3{
+    margin-top: 38px;
+    margin-left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  #bottomnav p{
+    font-size: 11;
+    margin-left: 25px;
+    margin-top: 45px;
+    color: white
+  }
+  
+  .box7{
+    background-color: rgb(23, 196, 138);
+  }
+  
+  .box8{
+    background-color: rgb(23, 55, 196)
+  }
+  
+  #head{
+    margin-left: 150;
+    margin-top: 20;
+    color: black
+  }
+  
+  h4{
+    color: white;
+    margin-left: 200px;
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  #point{
+    margin-left: 330px;
+    margin-top: -35
+  }
+  
+  .box9{
+    display: none;
+    background-color: black;
+  }
+  h6{
+    display: none;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  
+  #drop{
+    display: none;
+    color: white;
+    margin-left: 150;
+    margin-top: -79;
+  }
+  
+  #graph1{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 350px;
+    height: 275px;
+  }
+  
+  #line{
+    width: 450px;
+    height: 275px;
+    margin-top: 10px;
+    margin-left: 35px
+  }
+  
+  #color1{
+  width: 350px;
+  height: 275px;
+  margin-top: 10px;
+  }
+  
+  .box13{
+    display: none;
+    background-color: black;
+  }
+  h6{
+    display: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+  
+  #maingraph{
+    margin-top: 60px;
+    margin-left:25px;
+    height: 294px;
+    width: 750px;
+  }
+  
+  #pie{
+    display: none;
+    height: 293px;
+    width: 420px;
+    margin-left: -70px;
+    margin-top: 60px;
+  }
+  
+  .box17{
+    display: none;
+    background-color: black;
+  }
+  
+  
+  
+
+
+
+
+
+  @media (min-width: 576px) {
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 576px) {
-
+@media (min-width: 992px) {
+/
 }
