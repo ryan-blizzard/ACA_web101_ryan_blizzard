@@ -40,16 +40,12 @@
 }
 .box4{
   grid-row: 1/2;
-  grid-column: 4/5;
+  grid-column: 4/6;
 }
 #arrow{
   margin: 12px;
   margin-top: 50px;
 }
-/* .arrow{
-  margin: 5px;
-  margin-top: 50px;
-} */
 
 .bell, .env, .cogs{
   margin: 12px;
@@ -60,12 +56,9 @@
   grid-column: 1/4;
 }
 
-
-
-
 .box8{
   grid-row: 2/3;
-  grid-column: 4/5
+  grid-column: 4/6
 }
 
 #head{
@@ -94,21 +87,21 @@ h4{
 
 #graph1{
   margin: 50px 50px 0 20px;
-  width: 300px;
+  width: 225px;
 }
 
 
 #line{
   margin-top: 50px;
-  margin-left: -50px;
-  width: 300px;
+  margin-left: -45px;
+  width: 250px;
   
 }
 
 #color1{
   margin-top: 50px;
-  margin-left: -70px;
-  width: 300px;
+  margin-left: -50px;
+  width: 260px;
 }
 
 .box14{
@@ -118,31 +111,13 @@ grid-column: 1/5;
 
 #maingraph{
   width: 97%;
-  margin-left: 15px;
-  margin-top: -100px;
-  height: 500px;
+  margin-left: 30px;
+  margin-top: -50px;
+  height: 475px;
 }
 
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 576px) and (max-width: 767px){
+body{
+  max-width: 100;
+  grid-template-rows: 20% 20% 1rf
 }
