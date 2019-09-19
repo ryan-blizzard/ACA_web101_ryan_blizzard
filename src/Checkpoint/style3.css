@@ -119,5 +119,5 @@ grid-column: 1/5;
 @media (min-width: 576px) and (max-width: 767px){
 body{
   max-width: 100;
-  grid-template-rows: 20% 20% 1rf
+  grid-template-rows: 20% 20% 1rf;
 }
