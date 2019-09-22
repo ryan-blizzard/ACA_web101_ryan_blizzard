@@ -50,7 +50,6 @@ nav{
   height: 300px;
   margin-top: auto;
   margin-bottom: auto;
-
 }
 
 ul {
@@ -59,118 +58,107 @@ ul {
   font-size: 15;
 }
 
-
-
-
-
-
 /* Medium and up (Tablets) */
 @media (min-width: 768px) {
-
   .main-container {
     height: 800px;
     width: 100%;
     border: 2px solid black
   }
  
+img{
+  width: 600px;
+  height: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 
-  img{
-      width: 600px;
-      height: 650px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto
-      }
-
-      h1 {
-        font-size: 25px;
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto
-      }
+h1 {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+  }
       
-      p {
-        font-size: 15x;
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-      }
+p {
+  font-size: 15x;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
       
-      button {
-        background: grey;
-        font-size: 18;
-        color: white;
-        display: block;
-        width: 135;
-        border: solid black 1px
-      }
+button {
+  background: grey;
+  font-size: 18;
+  color: white;
+  display: block;
+  width: 135;
+  border: solid black 1px
+}
 
  
-      nav {
-        visibility: hidden;
-      }
-  ul {
-        visibility: hidden;
-      }
+nav {
+  visibility: hidden;
+}
 
-
-
+ul {
+  visibility: hidden;
+}
 }
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
   .main-container {
-    height: 2000px;
-    width: 100%;
-    border: 2px solid black
+  height: 2000px;
+  width: 100%;
+  border: 2px solid black
+}
+ 
+img {
+  width: 700px;
+  height: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
   }
- 
-
-  img{
-      width: 700px;
-      height: 750px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      float: left;
-      }
 
       
 
-      h1 {
-        font-size: 25px;
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto
-      }
+h1 {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
       
-      p {
-        font-size: 15x;
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-      }
+p {
+  font-size: 15x;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
       
-      button {
-        background: grey;
-        font-size: 18;
-        color: white;
-        display: block;
-        width: 135;
-        border: solid black 1px
-      }
+button {
+  background: grey;
+  font-size: 18;
+  color: white;
+  display: block;
+  width: 135;
+  border: solid black 1px
+}
 
  
-      nav {
-        visibility: hidden;
+nav {
+  visibility: hidden;
       }
-  ul {
-        visibility: hidden;
-      }
-
+ul {
+  visibility: hidden;
+}
 }
 
