@@ -4,7 +4,6 @@ table {
   color: black;
   font-size: 15;
   border: 1px solid black;
-  
 }
 
 h1 {
@@ -14,10 +13,6 @@ h1 {
   font-style: italic;
   font-size: 35px;
   color: black;
-  
-
-  
-
 }
 
 h2 {
@@ -26,7 +21,6 @@ h2 {
   text-align: center;
   font-size: 15px;
   border-spacing: 100px;
-  
 }
 
 p {
@@ -38,6 +32,4 @@ p {
 body {
   background-color: black;
   border: 3px solid white;
-
 }
-]
