@@ -14,15 +14,13 @@ body{
   }
 
   .main-container:hover div:nth-of-type(odd){
-    transition: all 4s ease-in-out;
-    transform: scale(1.5);
-    transform: translateX(600px) rotate(360deg);
+    transition: all 3s ease-in-out;
+    transform: translateX(600px) rotate(360deg) scale(1.5);
   }
 
 .main-container:hover div:nth-of-type(even){
-  transition: all 4s ease-in-out;
-  transform: scale(.5);
-  transform: translatex(-600px) rotate(-360deg);
+  transition: all 3s ease-in-out;
+  transform: translatex(-600px) rotate(-360deg) scale(.5);
   }
 
 @keyframes slidein-left {
