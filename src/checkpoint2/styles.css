@@ -13,19 +13,14 @@ body {
       url(cupcakes.jpeg);
   
 }
-
-
-
 .topnav {
   overflow: hidden;
   background-color: pink;
-  
-}
+  }
 
-.topnav #myLinks {
+  .topnav #myLinks {
   display: none;
 }
-
 
 .topnav a {
   color: white;
@@ -189,7 +184,8 @@ body {
       text-decoration: none;
       font-size: 30px;
       margin-left: 35px;
-      font-family: sans-serif
+      font-family: 'Pacifico', cursive;
+      text-shadow: -1px -1px 0 black;
     }
 
   .icon {
@@ -275,7 +271,7 @@ body {
           padding: 15px 9px;
           border-right: 1px solid white;
           margin-bottom: 0px;
-          font-size: 20px;
+          font-size: 15px;
           font-family: sans-serif;
           line-height: 10px;
           text-transform: uppercase;
@@ -300,7 +296,7 @@ body {
           text-indent: 0;
           background: none;
           vertical-align: bottom;
-          font-size: 20px;
+          font-size: 15px;
           text-decoration: none;
         }
       }
