@@ -1,0 +1,115 @@
+body{
+  height:100%;
+  width: 100%;
+  margin: auto;
+}
+
+.main-container {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .main-container:hover div:nth-of-type(odd){
+    transition: all 3s ease-in-out;
+    transform: translateX(600px) rotate(360deg) scale(1.5);
+  }
+
+.main-container:hover div:nth-of-type(even){
+  transition: all 3s ease-in-out;
+  transform: translatex(-600px) rotate(-360deg) scale(.5);
+  }
+
+@keyframes slidein-left {
+  0% {
+      transform: translateX(-500%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slidein-right {
+  0% {
+      transform: translateX(500%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+.box1 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  
+}
+.box2 {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+.box3 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+.box4 {
+background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+.box5 {
+background-color: black
+ height: 50px;
+ width: 50px;
+}
+.box6 {
+  background-color: orange
+  height: 50px;
+  width: 50px;
+}
+.box7 {
+  background-color: black;
+  width: 50px;
+  height: 50px; 
+}
+.box8 {
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+}
+.box9 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+.box10{
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+.box11{
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+.box12{
+  background-color: orange;
+  height: 50px;
+  width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
