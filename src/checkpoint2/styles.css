@@ -54,7 +54,7 @@ body {
 
 .main {
   display: flexbox;
-  background-color: k;
+  
   overflow: hidden;
 }
 
@@ -162,7 +162,145 @@ body {
   }
   @media (min-width: 992px) {
     body {
-      background-color: red;
-    } 
+      margin: 0%;
+      background-image: url("cupcakes.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+        background: 
+          linear-gradient(
+            rgba(252, 249, 249, 0.521), 
+            rgba(0, 0, 0, 0.534)
+          ),
+          url(cupcakes.jpeg);
+      
+    }
+
+    .topnav {
+      background-color: rgb(252, 153, 214);
+      overflow: hidden;
+    }
+    
+    
+    .topnav a {
+      color: #f2f2f2;
+      text-align: center;
+      padding: 40px 15px;
+      text-decoration: none;
+      font-size: 30px;
+      margin-left: 35px;
+      font-family: sans-serif
+    }
+
+  .icon {
+    display: none;
   }
-  
+    
+    .main {
+      display: flexbox;
+      overflow: hidden;
+    }
+    
+    .hey{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      height: 55%;
+      }
+    
+      .footer-wrapper {
+        font-family: sans-serif;
+        line-height: 2em;
+        font-size: 20px;
+        color: white;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 250px;
+        }
+    
+        .contrainer-fluid {
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+          box-sizing: border-box;
+          display: block;
+        }
+    
+        footer {
+          border-top: 4px solid white;
+          padding: 15px 0 30px;
+          margin: 0 auto;
+          display: block;
+        }
+    
+        footer .row {
+          margin-bottom: 0;
+          margin: 0 0 30px 0;
+          zoom: 1;
+        }
+    
+        .col-lg-12 {
+          position: relative;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+        
+        .text-center {
+          text-align: center;
+          box-sizing: border-box;
+          display: block;
+        }
+    
+        footer .footer-links ul {
+          display: inline-block;
+          margin: 0;
+        }
+    
+        ul {
+          list-style: disc outside none;
+          padding: 0;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          padding-inline-start: 40px;
+        }
+    
+        footer .footer-links li {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 15px 9px;
+          border-right: 1px solid white;
+          margin-bottom: 0px;
+          font-size: 20px;
+          font-family: sans-serif;
+          line-height: 10px;
+          text-transform: uppercase;
+        }
+    
+        footer .footer-links li a {
+          color: white;
+          text-decoration: none;
+          background-color: transparent;
+        }
+    
+        footer .footer-links li.no-border {
+          border-right: none;
+        }
+    
+        footer .footer-links li.contact {
+          margin-top: 0;
+        }
+    
+        footer .contact a.phone {
+          width: 96px;
+          text-indent: 0;
+          background: none;
+          vertical-align: bottom;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      }
