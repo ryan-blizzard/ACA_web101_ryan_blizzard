@@ -1,5 +1,5 @@
 @media (max-width: 600px) {
-body{
+body {
   margin: 0%;
   background-image: url("cupcakes.jpeg");
   background-size: cover;
@@ -134,7 +134,7 @@ body{
       font-size: 11px;
       font-family: sans-serif;
       line-height: 10px;
-      text-transform: uppercase
+      text-transform: uppercase;
     }
 
     footer .footer-links li a {
@@ -159,25 +159,10 @@ body{
       font-size: 11px;
       text-decoration: none;
     }
-
-    
-
-   
+  }
+  @media (min-width: 992px) {
+    body {
+      background-color: red;
+    } 
+  }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
