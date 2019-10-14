@@ -2,30 +2,42 @@
 
 [data-row] {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 34px;
   margin: 25px;
-  border: 1px solid lightgray;
   
 }
 
 [data-row].red {
   background-color: #f6c5c5;
+  border: 3px solid red;
 }
 
 [data-row].yellow {
   background-color: #ffffa9;
+  border: 3px solid yellow;
 }
 
 [data-row].green {
   background-color: #baf6ba;
+  border: 3px solid green;
 }
 
 [data-row].blue {
   background-color: aliceblue;
+  border: 3px solid blue;
 }
 
+.pieces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  height: 34px;
+  margin: 25px;
+
+}
 [data-color] {
   width: 25px;
   float: left;
@@ -34,21 +46,25 @@
 [data-color="blue"] {
   height: 33px;
   background-color: blue;
+  border: 1px solid white
 }
 
 [data-color="green"] {
   height: 33px;
   background-color: green;
+  border: 1px solid white;
 }
 
 [data-color="red"] {
   height: 33px;
   background-color: red;
+  border: 1px solid white;
 }
 
 [data-color="yellow"] {
   height: 33px;
   background-color: yellow;
+  border: 1px solid white;
 }
 
 #announce-game-won {
