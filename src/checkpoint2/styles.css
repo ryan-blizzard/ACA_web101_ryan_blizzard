@@ -1,0 +1,302 @@
+@media (max-width: 600px) {
+body {
+  margin: 0%;
+  background-image: url("cupcakes.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+    background: 
+      linear-gradient(
+        rgba(252, 249, 249, 0.521), 
+        rgba(0, 0, 0, 0.534)
+      ),
+      url(cupcakes.jpeg);
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+  }
+
+  .topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 15px 20px 25px;
+  text-decoration: none;
+  font-size: 35px;
+  display: block;
+}
+
+
+.topnav a.icon {
+  background: rgb(73, 41, 41);
+  display: block;
+  position: absolute;
+  left: 45%;
+  top: 13px;
+  height: 25px;
+  width: 30px;
+}
+
+.active {
+  background-color: rgb(252, 153, 214);
+  height: 50px;
+  color: rgb(131, 18, 223);
+}
+
+.main {
+  display: flexbox;
+  
+  overflow: hidden;
+}
+
+.hey{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: 50%;
+  }
+
+  .footer-wrapper {
+    font-family: sans-serif;
+    line-height: 1.45em;
+    font-size: 15px;
+    color: white;
+    box-sizing: border-box;
+    display: block;
+    }
+
+    .contrainer-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    footer {
+      border-top: 2px solid white;
+      padding: 10px 0 30px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    footer .row {
+      margin-bottom: 0;
+      margin: 0 0 30px 0;
+      zoom: 1;
+    }
+
+    .col-lg-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    
+    .text-center {
+      text-align: center;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    footer .footer-links ul {
+      display: inline-block;
+      margin: 0;
+    }
+
+    ul {
+      list-style: disc outside none;
+      padding: 0;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+    }
+
+    footer .footer-links li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 9px;
+      border-right: 1px solid white;
+      margin-bottom: 0px;
+      font-size: 11px;
+      font-family: sans-serif;
+      line-height: 10px;
+      text-transform: uppercase;
+    }
+
+    footer .footer-links li a {
+      color: white;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    footer .footer-links li.no-border {
+      border-right: none;
+    }
+
+    footer .footer-links li.contact {
+      margin-top: 0;
+    }
+
+    footer .contact a.phone {
+      width: 96px;
+      text-indent: 0;
+      background: none;
+      vertical-align: bottom;
+      font-size: 11px;
+      text-decoration: none;
+    }
+  }
+  @media (min-width: 992px) {
+    body {
+      margin: 0%;
+      background-image: url("cupcakes.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+        background: 
+          linear-gradient(
+            rgba(252, 249, 249, 0.521), 
+            rgba(0, 0, 0, 0.534)
+          ),
+          url(cupcakes.jpeg);
+      
+    }
+
+    .topnav {
+      background-color: rgb(252, 153, 214);
+      overflow: hidden;
+    }
+    
+    
+    .topnav a {
+      color: #f2f2f2;
+      text-align: center;
+      padding: 40px 15px;
+      text-decoration: none;
+      font-size: 30px;
+      margin-left: 35px;
+      font-family: 'Pacifico', cursive;
+      text-shadow: -1px -1px 0 black;
+    }
+
+  .icon {
+    display: none;
+  }
+    
+    .main {
+      display: flexbox;
+      overflow: hidden;
+    }
+    
+    .hey{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      height: 55%;
+      }
+    
+      .footer-wrapper {
+        font-family: sans-serif;
+        line-height: 2em;
+        font-size: 20px;
+        color: white;
+        box-sizing: border-box;
+        display: block;
+        margin-top: 250px;
+        }
+    
+        .contrainer-fluid {
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+          box-sizing: border-box;
+          display: block;
+        }
+    
+        footer {
+          border-top: 4px solid white;
+          padding: 15px 0 30px;
+          margin: 0 auto;
+          display: block;
+        }
+    
+        footer .row {
+          margin-bottom: 0;
+          margin: 0 0 30px 0;
+          zoom: 1;
+        }
+    
+        .col-lg-12 {
+          position: relative;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+        
+        .text-center {
+          text-align: center;
+          box-sizing: border-box;
+          display: block;
+        }
+    
+        footer .footer-links ul {
+          display: inline-block;
+          margin: 0;
+        }
+    
+        ul {
+          list-style: disc outside none;
+          padding: 0;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          padding-inline-start: 40px;
+        }
+    
+        footer .footer-links li {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 15px 9px;
+          border-right: 1px solid white;
+          margin-bottom: 0px;
+          font-size: 15px;
+          font-family: sans-serif;
+          line-height: 10px;
+          text-transform: uppercase;
+        }
+    
+        footer .footer-links li a {
+          color: white;
+          text-decoration: none;
+          background-color: transparent;
+        }
+    
+        footer .footer-links li.no-border {
+          border-right: none;
+        }
+    
+        footer .footer-links li.contact {
+          margin-top: 0;
+        }
+    
+        footer .contact a.phone {
+          width: 96px;
+          text-indent: 0;
+          background: none;
+          vertical-align: bottom;
+          font-size: 15px;
+          text-decoration: none;
+        }
+      }
